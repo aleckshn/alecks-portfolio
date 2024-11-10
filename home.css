@@ -3,10 +3,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: #181818;
     color: white;
+}
+
+/* SECTIONS */
+
+.section-container {
+    margin-bottom: 115px;
+    width: 100%;
+}
+
+.section-text {
+    font-size: medium;
+    letter-spacing: 0.5x;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
 }
 
 /* ABOUT ME */
@@ -17,17 +29,13 @@ body {
     align-items: center;
     width: fit-content;
     margin: auto;
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 #about-me-content {
     display: flex;
     flex-direction: column;
     gap: 30px
-}
-
-.section-container {
-    margin-bottom: 115px;
 }
 
 #name {
@@ -108,6 +116,8 @@ body {
     line-height: 1.5;
     margin-right: 64px;
     margin-top: 5px;
+    text-decoration: underline;
+    text-decoration-color: #808080;
 }
 
 .images {
@@ -149,15 +159,29 @@ body {
     line-height: 1.5;
 }
 
-.section-text {
+/* CONTACT */
+
+#contact-text {
     font-size: medium;
-    letter-spacing: 0.5x;
-    font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: 20px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
 }
 
-#projects-container {
-    width: 100%;
+#gmail {
+    font-size: medium;
+    font-family: "Raleway", sans-serif;
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    text-decoration: underline;
+    text-decoration-color: #808080;
+    margin-bottom: 10px;
+}
+
+.logos {
+    margin-right: 8px;
 }
 
 html {
