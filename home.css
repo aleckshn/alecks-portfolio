@@ -23,7 +23,7 @@ body {
 
 /* ABOUT ME */
 
-#container {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,13 +32,13 @@ body {
     margin-top: 130px;
 }
 
-#about-me-content {
+.about-me-content {
     display: flex;
     flex-direction: column;
     gap: 30px
 }
 
-#name {
+header {
     font-size: x-large;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1px;
@@ -47,23 +47,7 @@ body {
     margin-bottom: 50px;
 }
 
-#goals {
-    font-size: medium;
-    font-family: "Raleway", sans-serif;
-    font-weight: 150;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-}
-
-#focus {
-    font-size: medium;
-    font-family: "Raleway", sans-serif;
-    font-weight: 150;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-}
-
-#personal {
+.content{
     font-size: medium;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
@@ -80,17 +64,17 @@ body {
     gap: 8px;
 }
 
-#image-image-container {
+.image-image-container {
     display: flex;
     gap: 30px;
 }
 
-#text-image-container {
+.text-image-container {
     display: flex;
     justify-content: space-between;
 }
 
-#experience {
+.experience {
     font-size: medium;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
@@ -99,7 +83,7 @@ body {
     margin-bottom: 40px;
 }
 
-#graphics-design-title {
+.graphics-design-title {
     font-size: medium;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
@@ -108,7 +92,7 @@ body {
     margin-bottom: 16px;
 }
 
-#preview {
+.preview {
     font-size: small;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
@@ -125,34 +109,8 @@ body {
     width: auto;
 }
 
-#website {
+.image-text {
     font-size: small;
-    font-family: "Raleway", sans-serif;
-    font-weight: 150;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-}
-
-#insta {
-    font-size: small;
-    font-family: "Raleway", sans-serif;
-    font-weight: 150;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-}
-
-#zine-text {
-    font-size: small;
-    font-family: "Raleway", sans-serif;
-    font-weight: 150;
-    letter-spacing: 0.5px;
-    line-height: 1.5;
-}
-
-/* PROJECTS */
-
-#projects-text {
-    font-size: medium;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
     letter-spacing: 0.5px;
@@ -169,7 +127,7 @@ body {
     line-height: 1.5;
 }
 
-#gmail {
+.gmail {
     font-size: medium;
     font-family: "Raleway", sans-serif;
     font-weight: 150;
