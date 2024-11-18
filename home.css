@@ -16,7 +16,7 @@ body {
 }
 
 .section-text {
-    font-size: 25px;
+    font-size: 22px;
     letter-spacing: 0.5x;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 30px;
@@ -40,12 +40,22 @@ body {
 }
 
 header {
-    font-size: x-large;
+    font-size: 25px;
     font-family: "Open Sans", sans-serif;
     letter-spacing: 1px;
     color: white;
     align-self: flex-start;
+    margin-bottom: 3px;
+}
+
+.location {
     margin-bottom: 80px;
+    font-size: medium;
+    font-family: "Raleway", sans-serif;
+    font-weight: 150;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+    align-self: flex-start;
 }
 
 .content{
